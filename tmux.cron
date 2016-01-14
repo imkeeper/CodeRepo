@@ -1,0 +1,3 @@
+* * * * * echo "`date`: tmuxEnvSaver is running" >> /tmp/cron-tmux.log 2>&1
+* * * * * /home/shuai/tmuxEnvSaver.sh >> /tmp/cron-tmux.log 2>&1
+@reboot /home/shuai/tmuxEnvSaver.sh >> /tmp/cron-tmux.log 2>&1
